@@ -3,17 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package solid;
+package ocp;
 
 /**
  *
  * @author hendrick
  */
-public class Vegeta extends Personaje{
-  
-    public Vegeta() {
-    }
-
- 
-    
+public interface IDraw {
+    public void dibujar();
 }

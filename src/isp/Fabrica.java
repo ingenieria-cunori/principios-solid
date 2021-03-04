@@ -3,17 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package solid;
+package isp;
 
 /**
  *
  * @author hendrick
  */
-public class Goku extends Personaje{
-    
+public class Fabrica {
 
-    public Goku() {
+    /**
+     * @param args the command line arguments
+     */
+    public static void main(String[] args) {
+        Operativo operativo = new Operativo();
+        operativo.trabajar();
     }
     
-            
 }

@@ -3,23 +3,20 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package solid;
+package lsp;
 
 /**
  *
  * @author hendrick
  */
-public class Solid {
+public class Programa {
 
     /**
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Draw d = new Draw();
-        DrawGoku dg = new DrawGoku();
-        DrawCrilin dc = new DrawCrilin();
-        d.dibujar(dg);
-        d.dibujar(dc);
+        IPersona persona = new Español();
+        Bienvenida.darBienvenida(persona);
     }
     
 }

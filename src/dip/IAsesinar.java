@@ -3,12 +3,15 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package solid;
+package dip;
 
 /**
  *
  * @author hendrick
  */
-public class Crilin extends Personaje{
-    
+public interface IAsesinar {
+    public void caminar();
+    public void buscarSara();
+    public void correr();
+    public void disparar();
 }

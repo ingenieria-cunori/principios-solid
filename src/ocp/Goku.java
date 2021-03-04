@@ -3,12 +3,17 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package solid;
+package ocp;
 
 /**
  *
  * @author hendrick
  */
-public interface IDraw {
-    public void dibujar();
+public class Goku extends Personaje{
+    
+
+    public Goku() {
+    }
+    
+            
 }

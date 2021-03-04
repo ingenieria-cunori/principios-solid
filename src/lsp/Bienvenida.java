@@ -3,17 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package solid;
+package lsp;
 
 /**
  *
  * @author hendrick
  */
-public class DrawGoku implements IDraw{
-
-    @Override
-    public void dibujar() {
-        System.out.println("Ahora me estoy dibujando solito.  Atte. Gokú");
+public class Bienvenida {
+    public static void darBienvenida(IPersona persona){
+        persona.saludar();
     }
-    
 }
